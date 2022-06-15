@@ -1,7 +1,7 @@
 # Whitelist-Bot
 A simple Discord bot that integrates with WhitelistSync2's database to provide self-whitelisting via Discord's slash commands 
 # Dependencies
-## JDA-500-alpha.12
+## JDA-5.0.0-alpha.12
 ## json-20220320
 ## sqlite-jdbc-3.36.0.3
 
