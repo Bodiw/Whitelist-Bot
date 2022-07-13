@@ -8,7 +8,7 @@ public class WhitelistBot {
         if (args.length < 2) {
             System.out.println("Usage: java WhitelistBot <databaseDirectory> <botToken>");
         } else {
-            DatabaseManager dm = DatabaseManager.getInstance(args[1]);
+            DatabaseManager dm = DatabaseManager.getInstance(args[0]);
 
             dm.createDiscordPlayerTable();
 
